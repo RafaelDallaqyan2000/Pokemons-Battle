@@ -1,9 +1,8 @@
-import { View, Text, Image } from 'react-native';
-import React, { useMemo } from 'react';
+import React from 'react';
+import { Image, Text, View } from 'react-native';
 import { PokemonType } from '../../types';
-import { styles } from './pokemonCard-styles';
-import { UserIcon } from '../../icons';
 import { HealthBar } from '../HealtBar';
+import { styles } from './pokemonCard-styles';
 
 type PokemonCardType = {
   data: PokemonType | undefined;

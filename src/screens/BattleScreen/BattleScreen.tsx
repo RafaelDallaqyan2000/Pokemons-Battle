@@ -21,7 +21,7 @@ import { theme } from '../../styles';
 import { DiceType } from '../../types';
 import { styles } from './battleScreen-styles';
 
-const maxHealth = 15;
+const maxHealth = 100;
 
 export function BattleScreen() {
   const [myDiceResult, setMyDiceResult] = useState<any>([]);
