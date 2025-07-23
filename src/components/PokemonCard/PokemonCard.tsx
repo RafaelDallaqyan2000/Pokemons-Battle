@@ -32,7 +32,7 @@ export function PokemonCard({
         <Text style={styles.name}>{data.name}</Text>
         <View style={styles.healthContainer}>
           <HealthBar maxHealth={maxHealth} health={health} />
-          <Text style={styles.healt}>
+          <Text style={styles.health}>
             {health} / {maxHealth} XP
           </Text>
         </View>
@@ -48,7 +48,7 @@ export function PokemonCard({
         <Text style={styles.name}>{data.name} (You)</Text>
         <View style={styles.healthContainer}>
           <HealthBar maxHealth={maxHealth} health={health} />
-          <Text style={styles.healt}>
+          <Text style={styles.health}>
             {health} / {maxHealth} XP
           </Text>
         </View>

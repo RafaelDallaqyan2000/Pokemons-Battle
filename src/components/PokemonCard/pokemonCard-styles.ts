@@ -35,7 +35,7 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 10,
   },
-  healt: {
+  health: {
     fontSize: 14,
     fontWeight: 'bold',
     color: theme.colors.danger,
