@@ -1,0 +1,1 @@
+export { getRandomPokemon } from './getRandomPokemon';
